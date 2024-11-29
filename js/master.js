@@ -34,11 +34,11 @@ function makerand(){
         let pag=document.querySelector(".landing")
         let num=Math.floor(Math.random()*5);
         console.log(num);
-        pag.style.background=`url(/images/${num}.jpg)`
+        pag.style.background=`url(../images/${num}.jpg)`
         },10000);
     }
 }
-
+makerand();
 
 let col=localStorage.getItem("web_color");
 if(col!==null){
