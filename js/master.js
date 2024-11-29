@@ -34,7 +34,7 @@ function makerand(){
         let pag=document.querySelector(".landing")
         let num=Math.floor(Math.random()*5);
         console.log(num);
-        pag.style.background=`url(/images/${num}.jpg)`
+        pag.style.background=`url(https://mohammed-shehata-7662.github.io/my-first-full-website/images/${num}.jpg)`
         },10000);
     }
 }
